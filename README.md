@@ -7,7 +7,7 @@
 - **react-spring** - animation library
 
 ### Known issues
-Backend endpoints have incorrect CORS configuration. Server configuration change needed. 
+Backend endpoints have incorrect CORS configuration. Server configuration change needed. Endpoint data are temporarily cached locally. 
 
 ### Starting the app
 
