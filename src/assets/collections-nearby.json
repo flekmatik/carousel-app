@@ -1,0 +1,1872 @@
+{
+  "data": [
+    {
+      "id": "2209593399596549724",
+      "short_id": "CUwcxV9Gr6u",
+      "revision": 6,
+      "user": {
+        "id": "2122971540277430048",
+        "revision": 3,
+        "display_name": "Steller Northern Califormia",
+        "avatar_image_url": "https://d2rbodpj0xodc.cloudfront.net/avatar/default/v3/avatar4.png",
+        "avatar_image_bg": "#23306B",
+        "header_image_bg": "#E2EAAB",
+        "followers": 1,
+        "following": 1,
+        "explicitly_followed": false,
+        "implicitly_followed": false,
+        "follows_you": false,
+        "blocked": false,
+        "stories": 0,
+        "bookmarks": 72,
+        "follow_request_sent": false,
+        "follow_request_received": false,
+        "collections": [
+          {
+            "id": "2209593653477770846",
+            "short_id": "CUwd9j4vcjk",
+            "revision": 7,
+            "name": "Outdoor Adventures - San Francisco",
+            "web_name": "outdoor-adventures-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593653477770846/covers/a26c7303-4f52-48a9-9f1a-6101dcadb8f3-800x960.jpeg",
+            "cover_image_bg": "#BBB8BC",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.1448440849781
+                },
+                "southwest": {
+                  "lat": 37.1696662902832,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 37.24497985839844,
+                "lon": -122.14484405517578
+              }
+            }
+          },
+          {
+            "id": "2209593534745413213",
+            "short_id": "CUwd4wUS3yB",
+            "revision": 5,
+            "name": "Where to Eat & Drink - San Francisco",
+            "web_name": "where-to-eat-drink-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593534745413213/covers/b2852411-d3e5-47de-9425-c30944b969d0-800x960.jpeg",
+            "cover_image_bg": "#C7B9AE",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.805644953623414,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.78665923047811,
+                  "lon": -122.42259219288826
+                }
+              },
+              "last_location": {
+                "lat": 37.786659240722656,
+                "lon": -122.40711212158203
+              }
+            }
+          },
+          {
+            "id": "2209593399596549724",
+            "short_id": "CUwcxV9Gr6u",
+            "revision": 6,
+            "name": "Things to See & Do - San Francisco",
+            "web_name": "thing-to-see-do-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593399596549724/covers/610d9a5b-9b10-460a-b6c7-838cf738b05d-800x960.jpeg",
+            "cover_image_bg": "#6D7672",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.81992721371353,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.75986480060965,
+                  "lon": -122.47825624421239
+                }
+              },
+              "last_location": {
+                "lat": 37.795833587646484,
+                "lon": -122.39378356933594
+              }
+            }
+          },
+          {
+            "id": "2150229784557258454",
+            "short_id": "CCjaC5cUF36",
+            "revision": 2,
+            "name": "San Francisco Story Collection",
+            "web_name": "san-francisco-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150229784557258454/covers/92efcb72-a14f-4a9e-9d0b-e3a6d63b9f34-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2150202087395296981",
+            "short_id": "CCjCW2uw4K9",
+            "revision": 2,
+            "name": "Northern California Story Collection",
+            "web_name": "northern-california-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150202087395296981/covers/8f4609d3-5bc6-45f9-bda3-d2031eddca27-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2122971920835019949",
+            "short_id": "C5kaB6gysjD",
+            "revision": 7,
+            "name": "Wine Tasting in Napa Valley",
+            "web_name": "wine-tasting-in-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122971920835019949/covers/d322c7a1-5612-4c1d-8d1d-fa78f70bcc6e-800x960.jpeg",
+            "cover_image_bg": "#8E8A88",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                },
+                "southwest": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 38.60820007324219,
+                "lon": -122.59429931640625
+              }
+            }
+          },
+          {
+            "id": "2122972855812490414",
+            "short_id": "C5kasnxnxLR",
+            "revision": 8,
+            "name": "Getting Lost in Northern California",
+            "web_name": "outdoors-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122972855812490414/covers/2e02ff2a-455a-4e9e-bc38-6a4db04aa53d-800x960.jpeg",
+            "cover_image_bg": "#B4C7C7",
+            "bookmarks": 12,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.79550931788981,
+                  "lon": -123.04805760271847
+                },
+                "southwest": {
+                  "lat": 38.33324812352657,
+                  "lon": -124.20452881604433
+                }
+              },
+              "last_location": {
+                "lat": 40.308197021484375,
+                "lon": -123.90888977050781
+              }
+            }
+          }
+        ],
+        "default_viewport": {
+          "viewport": {
+            "northeast": {
+              "lat": 41.79550931788981,
+              "lon": -122.1448440849781
+            },
+            "southwest": {
+              "lat": 37.1696662902832,
+              "lon": -124.20452881604433
+            }
+          },
+          "last_location": {
+            "lat": 37.80213928222656,
+            "lon": -122.41873931884766
+          }
+        },
+        "_username": "stlrncalifornia",
+        "private": false
+      },
+      "name": "Things to See & Do - San Francisco",
+      "web_name": "thing-to-see-do-san-francisco",
+      "description": null,
+      "header_image_url": null,
+      "header_image_bg": "#8E95B3",
+      "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593399596549724/covers/610d9a5b-9b10-460a-b6c7-838cf738b05d-800x960.jpeg",
+      "cover_image_bg": "#6D7672",
+      "followers": 1,
+      "explicitly_followed": false,
+      "implicitly_followed": false,
+      "stories": 0,
+      "bookmarks": 13,
+      "cover_contains_title": true,
+      "default_viewport": {
+        "viewport": {
+          "northeast": {
+            "lat": 37.81992721371353,
+            "lon": -122.39378359168768
+          },
+          "southwest": {
+            "lat": 37.75986480060965,
+            "lon": -122.47825624421239
+          }
+        },
+        "last_location": {
+          "lat": 37.795833587646484,
+          "lon": -122.39378356933594
+        }
+      },
+      "share_url": "https://steller.co/c/CUwcxV9Gr6u"
+    },
+    {
+      "id": "2209593534745413213",
+      "short_id": "CUwd4wUS3yB",
+      "revision": 5,
+      "user": {
+        "id": "2122971540277430048",
+        "revision": 3,
+        "display_name": "Steller Northern Califormia",
+        "avatar_image_url": "https://d2rbodpj0xodc.cloudfront.net/avatar/default/v3/avatar4.png",
+        "avatar_image_bg": "#23306B",
+        "header_image_bg": "#E2EAAB",
+        "followers": 1,
+        "following": 1,
+        "explicitly_followed": false,
+        "implicitly_followed": false,
+        "follows_you": false,
+        "blocked": false,
+        "stories": 0,
+        "bookmarks": 72,
+        "follow_request_sent": false,
+        "follow_request_received": false,
+        "collections": [
+          {
+            "id": "2209593653477770846",
+            "short_id": "CUwd9j4vcjk",
+            "revision": 7,
+            "name": "Outdoor Adventures - San Francisco",
+            "web_name": "outdoor-adventures-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593653477770846/covers/a26c7303-4f52-48a9-9f1a-6101dcadb8f3-800x960.jpeg",
+            "cover_image_bg": "#BBB8BC",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.1448440849781
+                },
+                "southwest": {
+                  "lat": 37.1696662902832,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 37.24497985839844,
+                "lon": -122.14484405517578
+              }
+            }
+          },
+          {
+            "id": "2209593534745413213",
+            "short_id": "CUwd4wUS3yB",
+            "revision": 5,
+            "name": "Where to Eat & Drink - San Francisco",
+            "web_name": "where-to-eat-drink-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593534745413213/covers/b2852411-d3e5-47de-9425-c30944b969d0-800x960.jpeg",
+            "cover_image_bg": "#C7B9AE",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.805644953623414,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.78665923047811,
+                  "lon": -122.42259219288826
+                }
+              },
+              "last_location": {
+                "lat": 37.786659240722656,
+                "lon": -122.40711212158203
+              }
+            }
+          },
+          {
+            "id": "2209593399596549724",
+            "short_id": "CUwcxV9Gr6u",
+            "revision": 6,
+            "name": "Things to See & Do - San Francisco",
+            "web_name": "thing-to-see-do-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593399596549724/covers/610d9a5b-9b10-460a-b6c7-838cf738b05d-800x960.jpeg",
+            "cover_image_bg": "#6D7672",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.81992721371353,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.75986480060965,
+                  "lon": -122.47825624421239
+                }
+              },
+              "last_location": {
+                "lat": 37.795833587646484,
+                "lon": -122.39378356933594
+              }
+            }
+          },
+          {
+            "id": "2150229784557258454",
+            "short_id": "CCjaC5cUF36",
+            "revision": 2,
+            "name": "San Francisco Story Collection",
+            "web_name": "san-francisco-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150229784557258454/covers/92efcb72-a14f-4a9e-9d0b-e3a6d63b9f34-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2150202087395296981",
+            "short_id": "CCjCW2uw4K9",
+            "revision": 2,
+            "name": "Northern California Story Collection",
+            "web_name": "northern-california-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150202087395296981/covers/8f4609d3-5bc6-45f9-bda3-d2031eddca27-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2122971920835019949",
+            "short_id": "C5kaB6gysjD",
+            "revision": 7,
+            "name": "Wine Tasting in Napa Valley",
+            "web_name": "wine-tasting-in-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122971920835019949/covers/d322c7a1-5612-4c1d-8d1d-fa78f70bcc6e-800x960.jpeg",
+            "cover_image_bg": "#8E8A88",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                },
+                "southwest": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 38.60820007324219,
+                "lon": -122.59429931640625
+              }
+            }
+          },
+          {
+            "id": "2122972855812490414",
+            "short_id": "C5kasnxnxLR",
+            "revision": 8,
+            "name": "Getting Lost in Northern California",
+            "web_name": "outdoors-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122972855812490414/covers/2e02ff2a-455a-4e9e-bc38-6a4db04aa53d-800x960.jpeg",
+            "cover_image_bg": "#B4C7C7",
+            "bookmarks": 12,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.79550931788981,
+                  "lon": -123.04805760271847
+                },
+                "southwest": {
+                  "lat": 38.33324812352657,
+                  "lon": -124.20452881604433
+                }
+              },
+              "last_location": {
+                "lat": 40.308197021484375,
+                "lon": -123.90888977050781
+              }
+            }
+          }
+        ],
+        "default_viewport": {
+          "viewport": {
+            "northeast": {
+              "lat": 41.79550931788981,
+              "lon": -122.1448440849781
+            },
+            "southwest": {
+              "lat": 37.1696662902832,
+              "lon": -124.20452881604433
+            }
+          },
+          "last_location": {
+            "lat": 37.80213928222656,
+            "lon": -122.41873931884766
+          }
+        },
+        "_username": "stlrncalifornia",
+        "private": false
+      },
+      "name": "Where to Eat & Drink - San Francisco",
+      "web_name": "where-to-eat-drink-san-francisco",
+      "description": null,
+      "header_image_url": null,
+      "header_image_bg": "#E2EAAB",
+      "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593534745413213/covers/b2852411-d3e5-47de-9425-c30944b969d0-800x960.jpeg",
+      "cover_image_bg": "#C7B9AE",
+      "followers": 1,
+      "explicitly_followed": false,
+      "implicitly_followed": false,
+      "stories": 1,
+      "bookmarks": 11,
+      "cover_contains_title": true,
+      "default_viewport": {
+        "viewport": {
+          "northeast": {
+            "lat": 37.805644953623414,
+            "lon": -122.39378359168768
+          },
+          "southwest": {
+            "lat": 37.78665923047811,
+            "lon": -122.42259219288826
+          }
+        },
+        "last_location": {
+          "lat": 37.786659240722656,
+          "lon": -122.40711212158203
+        }
+      },
+      "share_url": "https://steller.co/c/CUwd4wUS3yB"
+    },
+    {
+      "id": "2209593653477770846",
+      "short_id": "CUwd9j4vcjk",
+      "revision": 7,
+      "user": {
+        "id": "2122971540277430048",
+        "revision": 3,
+        "display_name": "Steller Northern Califormia",
+        "avatar_image_url": "https://d2rbodpj0xodc.cloudfront.net/avatar/default/v3/avatar4.png",
+        "avatar_image_bg": "#23306B",
+        "header_image_bg": "#E2EAAB",
+        "followers": 1,
+        "following": 1,
+        "explicitly_followed": false,
+        "implicitly_followed": false,
+        "follows_you": false,
+        "blocked": false,
+        "stories": 0,
+        "bookmarks": 72,
+        "follow_request_sent": false,
+        "follow_request_received": false,
+        "collections": [
+          {
+            "id": "2209593653477770846",
+            "short_id": "CUwd9j4vcjk",
+            "revision": 7,
+            "name": "Outdoor Adventures - San Francisco",
+            "web_name": "outdoor-adventures-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593653477770846/covers/a26c7303-4f52-48a9-9f1a-6101dcadb8f3-800x960.jpeg",
+            "cover_image_bg": "#BBB8BC",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.1448440849781
+                },
+                "southwest": {
+                  "lat": 37.1696662902832,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 37.24497985839844,
+                "lon": -122.14484405517578
+              }
+            }
+          },
+          {
+            "id": "2209593534745413213",
+            "short_id": "CUwd4wUS3yB",
+            "revision": 5,
+            "name": "Where to Eat & Drink - San Francisco",
+            "web_name": "where-to-eat-drink-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593534745413213/covers/b2852411-d3e5-47de-9425-c30944b969d0-800x960.jpeg",
+            "cover_image_bg": "#C7B9AE",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.805644953623414,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.78665923047811,
+                  "lon": -122.42259219288826
+                }
+              },
+              "last_location": {
+                "lat": 37.786659240722656,
+                "lon": -122.40711212158203
+              }
+            }
+          },
+          {
+            "id": "2209593399596549724",
+            "short_id": "CUwcxV9Gr6u",
+            "revision": 6,
+            "name": "Things to See & Do - San Francisco",
+            "web_name": "thing-to-see-do-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593399596549724/covers/610d9a5b-9b10-460a-b6c7-838cf738b05d-800x960.jpeg",
+            "cover_image_bg": "#6D7672",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.81992721371353,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.75986480060965,
+                  "lon": -122.47825624421239
+                }
+              },
+              "last_location": {
+                "lat": 37.795833587646484,
+                "lon": -122.39378356933594
+              }
+            }
+          },
+          {
+            "id": "2150229784557258454",
+            "short_id": "CCjaC5cUF36",
+            "revision": 2,
+            "name": "San Francisco Story Collection",
+            "web_name": "san-francisco-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150229784557258454/covers/92efcb72-a14f-4a9e-9d0b-e3a6d63b9f34-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2150202087395296981",
+            "short_id": "CCjCW2uw4K9",
+            "revision": 2,
+            "name": "Northern California Story Collection",
+            "web_name": "northern-california-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150202087395296981/covers/8f4609d3-5bc6-45f9-bda3-d2031eddca27-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2122971920835019949",
+            "short_id": "C5kaB6gysjD",
+            "revision": 7,
+            "name": "Wine Tasting in Napa Valley",
+            "web_name": "wine-tasting-in-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122971920835019949/covers/d322c7a1-5612-4c1d-8d1d-fa78f70bcc6e-800x960.jpeg",
+            "cover_image_bg": "#8E8A88",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                },
+                "southwest": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 38.60820007324219,
+                "lon": -122.59429931640625
+              }
+            }
+          },
+          {
+            "id": "2122972855812490414",
+            "short_id": "C5kasnxnxLR",
+            "revision": 8,
+            "name": "Getting Lost in Northern California",
+            "web_name": "outdoors-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122972855812490414/covers/2e02ff2a-455a-4e9e-bc38-6a4db04aa53d-800x960.jpeg",
+            "cover_image_bg": "#B4C7C7",
+            "bookmarks": 12,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.79550931788981,
+                  "lon": -123.04805760271847
+                },
+                "southwest": {
+                  "lat": 38.33324812352657,
+                  "lon": -124.20452881604433
+                }
+              },
+              "last_location": {
+                "lat": 40.308197021484375,
+                "lon": -123.90888977050781
+              }
+            }
+          }
+        ],
+        "default_viewport": {
+          "viewport": {
+            "northeast": {
+              "lat": 41.79550931788981,
+              "lon": -122.1448440849781
+            },
+            "southwest": {
+              "lat": 37.1696662902832,
+              "lon": -124.20452881604433
+            }
+          },
+          "last_location": {
+            "lat": 37.80213928222656,
+            "lon": -122.41873931884766
+          }
+        },
+        "_username": "stlrncalifornia",
+        "private": false
+      },
+      "name": "Outdoor Adventures - San Francisco",
+      "web_name": "outdoor-adventures-san-francisco",
+      "description": null,
+      "header_image_url": null,
+      "header_image_bg": "#E49681",
+      "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593653477770846/covers/a26c7303-4f52-48a9-9f1a-6101dcadb8f3-800x960.jpeg",
+      "cover_image_bg": "#BBB8BC",
+      "followers": 1,
+      "explicitly_followed": false,
+      "implicitly_followed": false,
+      "stories": 0,
+      "bookmarks": 10,
+      "cover_contains_title": true,
+      "default_viewport": {
+        "viewport": {
+          "northeast": {
+            "lat": 38.60820007044822,
+            "lon": -122.1448440849781
+          },
+          "southwest": {
+            "lat": 37.1696662902832,
+            "lon": -122.5942993350327
+          }
+        },
+        "last_location": {
+          "lat": 37.24497985839844,
+          "lon": -122.14484405517578
+        }
+      },
+      "share_url": "https://steller.co/c/CUwd9j4vcjk"
+    },
+    {
+      "id": "2122971920835019949",
+      "short_id": "C5kaB6gysjD",
+      "revision": 7,
+      "user": {
+        "id": "2122971540277430048",
+        "revision": 3,
+        "display_name": "Steller Northern Califormia",
+        "avatar_image_url": "https://d2rbodpj0xodc.cloudfront.net/avatar/default/v3/avatar4.png",
+        "avatar_image_bg": "#23306B",
+        "header_image_bg": "#E2EAAB",
+        "followers": 1,
+        "following": 1,
+        "explicitly_followed": false,
+        "implicitly_followed": false,
+        "follows_you": false,
+        "blocked": false,
+        "stories": 0,
+        "bookmarks": 72,
+        "follow_request_sent": false,
+        "follow_request_received": false,
+        "collections": [
+          {
+            "id": "2209593653477770846",
+            "short_id": "CUwd9j4vcjk",
+            "revision": 7,
+            "name": "Outdoor Adventures - San Francisco",
+            "web_name": "outdoor-adventures-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593653477770846/covers/a26c7303-4f52-48a9-9f1a-6101dcadb8f3-800x960.jpeg",
+            "cover_image_bg": "#BBB8BC",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.1448440849781
+                },
+                "southwest": {
+                  "lat": 37.1696662902832,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 37.24497985839844,
+                "lon": -122.14484405517578
+              }
+            }
+          },
+          {
+            "id": "2209593534745413213",
+            "short_id": "CUwd4wUS3yB",
+            "revision": 5,
+            "name": "Where to Eat & Drink - San Francisco",
+            "web_name": "where-to-eat-drink-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593534745413213/covers/b2852411-d3e5-47de-9425-c30944b969d0-800x960.jpeg",
+            "cover_image_bg": "#C7B9AE",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.805644953623414,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.78665923047811,
+                  "lon": -122.42259219288826
+                }
+              },
+              "last_location": {
+                "lat": 37.786659240722656,
+                "lon": -122.40711212158203
+              }
+            }
+          },
+          {
+            "id": "2209593399596549724",
+            "short_id": "CUwcxV9Gr6u",
+            "revision": 6,
+            "name": "Things to See & Do - San Francisco",
+            "web_name": "thing-to-see-do-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2209593399596549724/covers/610d9a5b-9b10-460a-b6c7-838cf738b05d-800x960.jpeg",
+            "cover_image_bg": "#6D7672",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 37.81992721371353,
+                  "lon": -122.39378359168768
+                },
+                "southwest": {
+                  "lat": 37.75986480060965,
+                  "lon": -122.47825624421239
+                }
+              },
+              "last_location": {
+                "lat": 37.795833587646484,
+                "lon": -122.39378356933594
+              }
+            }
+          },
+          {
+            "id": "2150229784557258454",
+            "short_id": "CCjaC5cUF36",
+            "revision": 2,
+            "name": "San Francisco Story Collection",
+            "web_name": "san-francisco-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150229784557258454/covers/92efcb72-a14f-4a9e-9d0b-e3a6d63b9f34-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2150202087395296981",
+            "short_id": "CCjCW2uw4K9",
+            "revision": 2,
+            "name": "Northern California Story Collection",
+            "web_name": "northern-california-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2150202087395296981/covers/8f4609d3-5bc6-45f9-bda3-d2031eddca27-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2122971920835019949",
+            "short_id": "C5kaB6gysjD",
+            "revision": 7,
+            "name": "Wine Tasting in Napa Valley",
+            "web_name": "wine-tasting-in-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122971920835019949/covers/d322c7a1-5612-4c1d-8d1d-fa78f70bcc6e-800x960.jpeg",
+            "cover_image_bg": "#8E8A88",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                },
+                "southwest": {
+                  "lat": 38.60820007044822,
+                  "lon": -122.5942993350327
+                }
+              },
+              "last_location": {
+                "lat": 38.60820007324219,
+                "lon": -122.59429931640625
+              }
+            }
+          },
+          {
+            "id": "2122972855812490414",
+            "short_id": "C5kasnxnxLR",
+            "revision": 8,
+            "name": "Getting Lost in Northern California",
+            "web_name": "outdoors-northern-california",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122972855812490414/covers/2e02ff2a-455a-4e9e-bc38-6a4db04aa53d-800x960.jpeg",
+            "cover_image_bg": "#B4C7C7",
+            "bookmarks": 12,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.79550931788981,
+                  "lon": -123.04805760271847
+                },
+                "southwest": {
+                  "lat": 38.33324812352657,
+                  "lon": -124.20452881604433
+                }
+              },
+              "last_location": {
+                "lat": 40.308197021484375,
+                "lon": -123.90888977050781
+              }
+            }
+          }
+        ],
+        "default_viewport": {
+          "viewport": {
+            "northeast": {
+              "lat": 41.79550931788981,
+              "lon": -122.1448440849781
+            },
+            "southwest": {
+              "lat": 37.1696662902832,
+              "lon": -124.20452881604433
+            }
+          },
+          "last_location": {
+            "lat": 37.80213928222656,
+            "lon": -122.41873931884766
+          }
+        },
+        "_username": "stlrncalifornia",
+        "private": false
+      },
+      "name": "Wine Tasting in Napa Valley",
+      "web_name": "wine-tasting-in-northern-california",
+      "description": null,
+      "header_image_url": null,
+      "header_image_bg": "#8E95B3",
+      "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2122971920835019949/covers/d322c7a1-5612-4c1d-8d1d-fa78f70bcc6e-800x960.jpeg",
+      "cover_image_bg": "#8E8A88",
+      "followers": 1,
+      "explicitly_followed": false,
+      "implicitly_followed": false,
+      "stories": 0,
+      "bookmarks": 7,
+      "cover_contains_title": true,
+      "default_viewport": {
+        "viewport": {
+          "northeast": {
+            "lat": 38.60820007044822,
+            "lon": -122.5942993350327
+          },
+          "southwest": {
+            "lat": 38.60820007044822,
+            "lon": -122.5942993350327
+          }
+        },
+        "last_location": {
+          "lat": 38.60820007324219,
+          "lon": -122.59429931640625
+        }
+      },
+      "share_url": "https://steller.co/c/C5kaB6gysjD"
+    },
+    {
+      "id": "2118381315261727761",
+      "short_id": "C4a6b3rmmtW",
+      "revision": 10,
+      "user": {
+        "id": "2110955711910381216",
+        "revision": 4,
+        "display_name": "StellerUSA",
+        "avatar_image_url": "https://d2rbodpj0xodc.cloudfront.net/avatar/default/v3/avatar2.png",
+        "avatar_image_bg": "#CA3108",
+        "header_image_bg": "#E49681",
+        "followers": 1,
+        "following": 1,
+        "explicitly_followed": false,
+        "implicitly_followed": false,
+        "follows_you": false,
+        "blocked": false,
+        "stories": 0,
+        "bookmarks": 530,
+        "follow_request_sent": false,
+        "follow_request_received": false,
+        "collections": [
+          {
+            "id": "2229202204823127070",
+            "short_id": "CZxr9NsLmbC",
+            "revision": 2,
+            "name": "Great Music Venues in Nashville",
+            "web_name": "great-music-venues-in-nashville",
+            "cover_image_url": null,
+            "cover_image_bg": "#9B9CA1",
+            "bookmarks": 5,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 36.17355345748365,
+                  "lon": -86.77847293205559
+                },
+                "southwest": {
+                  "lat": 36.15139769855887,
+                  "lon": -86.80436714552343
+                }
+              },
+              "last_location": {
+                "lat": 36.16124725341797,
+                "lon": -86.77847290039062
+              }
+            }
+          },
+          {
+            "id": "2214912070736938643",
+            "short_id": "CWJCJ4Pjqm7",
+            "revision": 5,
+            "name": "Vintage Vibes",
+            "web_name": "nashville-vintage-vibes",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2214912070736938643/covers/098215ce-f18e-4dce-ac44-7f234fac0080-800x960.jpeg",
+            "cover_image_bg": "#4C4139",
+            "bookmarks": 9,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2183777431733667158",
+            "short_id": "CMKZrPWzG7A",
+            "revision": 2,
+            "name": "New Orleans Story Collection",
+            "web_name": "new-orleans-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183777431733667158/covers/35686dd3-9e7c-4d07-bae6-35311129a067-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2183740777945892180",
+            "short_id": "CMK5U8UUKsN",
+            "revision": 10,
+            "name": "Outdoor Adventures - New Orleans",
+            "web_name": "outdoor-adventures-new-orleans",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183740777945892180/covers/319dc858-4ab0-43d2-a117-5b7aae5e061d-800x960.jpeg",
+            "cover_image_bg": "#445A43",
+            "bookmarks": 12,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 30.237628896720707,
+                  "lon": -89.98729705810547
+                },
+                "southwest": {
+                  "lat": 29.194019297137856,
+                  "lon": -91.8820190615952
+                }
+              },
+              "last_location": {
+                "lat": 30.00383949279785,
+                "lon": -90.0971908569336
+              }
+            }
+          },
+          {
+            "id": "2183740342199649619",
+            "short_id": "CMK59YUd249",
+            "revision": 9,
+            "name": "Things to See & Do - New Orleans",
+            "web_name": "things-to-see-do-new-orleans",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183740342199649619/covers/a2c4f077-962b-407d-9606-ff07b8a009c9-800x960.jpeg",
+            "cover_image_bg": "#5C5548",
+            "bookmarks": 9,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 29.965600934810936,
+                  "lon": -90.05783848464489
+                },
+                "southwest": {
+                  "lat": 29.957448947243392,
+                  "lon": -90.0871963519603
+                }
+              },
+              "last_location": {
+                "lat": 29.965600967407227,
+                "lon": -90.08719635009766
+              }
+            }
+          },
+          {
+            "id": "2183739380160529746",
+            "short_id": "CMK4RkHEdPE",
+            "revision": 5,
+            "name": "Where to Eat & Drink - New Orleans",
+            "web_name": "where-to-eat-drink-new-orleans",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183739380160529746/covers/826ab483-7239-4600-b276-0e08302349e2-800x960.jpeg",
+            "cover_image_bg": "#73513B",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 29.9575729155913,
+                  "lon": -90.06185919977725
+                },
+                "southwest": {
+                  "lat": 29.95752333663404,
+                  "lon": -90.06582643836737
+                }
+              },
+              "last_location": {
+                "lat": 29.957523345947266,
+                "lon": -90.06185913085938
+              }
+            }
+          },
+          {
+            "id": "2183703647567742288",
+            "short_id": "CMJYjcUdxh2",
+            "revision": 4,
+            "name": "Outdoor Adventures - Nashville",
+            "web_name": "outdoor-adventures-nashville",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183703647567742288/covers/b0741da1-7f1b-4c2d-b8e8-332c753a33e6-800x960.jpeg",
+            "cover_image_bg": "#2D2C1F",
+            "bookmarks": 6,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 36.15694425534457,
+                  "lon": -86.61750032566488
+                },
+                "southwest": {
+                  "lat": 36.06276317965239,
+                  "lon": -87.12229927070439
+                }
+              },
+              "last_location": {
+                "lat": 36.06276321411133,
+                "lon": -86.80989074707031
+              }
+            }
+          },
+          {
+            "id": "2183699198761764175",
+            "short_id": "CMJVRCZq273",
+            "revision": 2,
+            "name": "Nashville Story Collection",
+            "web_name": "nashville-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183699198761764175/covers/627e8032-6a9f-462b-8cd3-01e93c943df3-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2183691014911296846",
+            "short_id": "CMJNJ9EvA32",
+            "revision": 5,
+            "name": "Things to See & Do - Nashville",
+            "web_name": "things-to-see-do-nashville",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183691014911296846/covers/d4f70259-8ca5-452a-9f2b-a1626416197b-800x960.jpeg",
+            "cover_image_bg": "#442722",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 36.206855764612556,
+                  "lon": -86.69210823252797
+                },
+                "southwest": {
+                  "lat": 36.14967345725745,
+                  "lon": -86.8133469298482
+                }
+              },
+              "last_location": {
+                "lat": 36.20685577392578,
+                "lon": -86.69210815429688
+              }
+            }
+          },
+          {
+            "id": "2183690446063011149",
+            "short_id": "CMJMtCMdGk7",
+            "revision": 5,
+            "name": "Where to Eat & Drink - Nashville",
+            "web_name": "where-to-eat-drink-nashville",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2183690446063011149/covers/ee99fd04-b59c-4faf-8848-87986fb19c52-800x960.jpeg",
+            "cover_image_bg": "#91786C",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 36.20311735197902,
+                  "lon": -83.52178956381977
+                },
+                "southwest": {
+                  "lat": 35.70774456951767,
+                  "lon": -86.80274206213653
+                }
+              },
+              "last_location": {
+                "lat": 36.137027740478516,
+                "lon": -86.80057525634766
+              }
+            }
+          },
+          {
+            "id": "2178748158358586658",
+            "short_id": "CL42dVt2vRn",
+            "revision": 5,
+            "name": "Outdoor Adventures - Chicago",
+            "web_name": "outdoor-adventures-chicago",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2178748158358586658/covers/b323426b-d92d-4235-bb75-fdf87af1ce39-800x960.jpeg",
+            "cover_image_bg": "#A9745D",
+            "bookmarks": 8,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2178651846720095520",
+            "short_id": "CL2fhB2JMHn",
+            "revision": 5,
+            "name": "Where to Eat & Drink - Chicago",
+            "web_name": "places-to-eat-drink-chicago",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2178651846720095520/covers/1b84be0e-afa9-4bbe-ad1b-a9e95c76e4ac-800x960.jpeg",
+            "cover_image_bg": "#B6A388",
+            "bookmarks": 8,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2178651014410798367",
+            "short_id": "CL2f6bLkhvK",
+            "revision": 2,
+            "name": "Chicago Story Collection",
+            "web_name": "chicago-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2178651014410798367/covers/041e5521-f0da-4b20-9bad-761764c1108f-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2177186969606423800",
+            "short_id": "CKdRdRbqdL6",
+            "revision": 6,
+            "name": "Things to See & Do - Chicago",
+            "web_name": "things-to-see-do-chicago",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2177186969606423800/covers/aaa31c27-cfe9-4da7-8f0b-311069ebe73d-800x960.jpeg",
+            "cover_image_bg": "#4F5E67",
+            "bookmarks": 8,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.87811276409775,
+                  "lon": -87.6297989487648
+                },
+                "southwest": {
+                  "lat": 41.87811276409775,
+                  "lon": -87.6297989487648
+                }
+              },
+              "last_location": {
+                "lat": 41.87811279296875,
+                "lon": -87.62979888916016
+              }
+            }
+          },
+          {
+            "id": "2155905954456012623",
+            "short_id": "CEC6XsMVMBY",
+            "revision": 2,
+            "name": "Nevada Story Collection",
+            "web_name": "nevada-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2155905954456012623/covers/e7ee8fe8-8357-426d-a1e4-b11416afba2f-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2155612389146363724",
+            "short_id": "CE83H8NtCpn",
+            "revision": 5,
+            "name": "Montana Landscapes",
+            "web_name": "montana-landscapes",
+            "cover_image_url": null,
+            "cover_image_bg": "#8E95B3",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 45.776730766519904,
+                  "lon": -108.46721844747663
+                },
+                "southwest": {
+                  "lat": 41.92634198348969,
+                  "lon": -109.91070563904941
+                }
+              },
+              "last_location": {
+                "lat": 41.92634201049805,
+                "lon": -109.91070556640625
+              }
+            }
+          },
+          {
+            "id": "2155503379277678411",
+            "short_id": "CE6WseUdNrY",
+            "revision": 2,
+            "name": "Montana Story Collection",
+            "web_name": "montana-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2155503379277678411/covers/47f44d20-fb85-42da-becd-3205bb47e0de-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2153154477174032165",
+            "short_id": "CDV3YRurP5S",
+            "revision": 7,
+            "name": "Day Adventures Outside Portland",
+            "web_name": "portland-outdoors",
+            "cover_image_url": null,
+            "cover_image_bg": "#9B9CA1",
+            "bookmarks": 9,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 46.19140057358891,
+                  "lon": -121.50930027477443
+                },
+                "southwest": {
+                  "lat": 45.57616041507572,
+                  "lon": -122.23898316733539
+                }
+              },
+              "last_location": {
+                "lat": 45.747894287109375,
+                "lon": -122.23898315429688
+              }
+            }
+          },
+          {
+            "id": "2153140471084353315",
+            "short_id": "CDUr6YWnw9c",
+            "revision": 2,
+            "name": "Portland Story Collection",
+            "web_name": "portland-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2153140471084353315/covers/776bc437-c8c9-44c2-a71a-5439596bffca-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2148875270243747525",
+            "short_id": "CCNrYLdSL6Y",
+            "revision": 2,
+            "name": "Utah Story Collection",
+            "web_name": "utah-story-collection",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2148875270243747525/covers/742a2169-fcbb-4a52-aef9-06cd84f74098-800x960.jpeg",
+            "cover_image_bg": "#6EC0DC",
+            "bookmarks": 0,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2121193704180941917",
+            "short_id": "C5Hz66gueS9",
+            "revision": 4,
+            "name": "Winter in Tahoe",
+            "web_name": "winter-in-tahoe",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2121193704180941917/covers/95893e95-ada2-4733-bd18-53e40495f3d1-800x960.jpeg",
+            "cover_image_bg": "#85CBE2",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": null
+          },
+          {
+            "id": "2116193004644468690",
+            "short_id": "C42qDb4qzyh",
+            "revision": 3,
+            "name": "Winding through Chicago",
+            "web_name": "chicago-il",
+            "cover_image_url": null,
+            "cover_image_bg": "#9B9CA1",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.87811276409775,
+                  "lon": -87.6297989487648
+                },
+                "southwest": {
+                  "lat": 41.87811276409775,
+                  "lon": -87.6297989487648
+                }
+              },
+              "last_location": {
+                "lat": 41.87811279296875,
+                "lon": -87.62979888916016
+              }
+            }
+          },
+          {
+            "id": "2118357916774827021",
+            "short_id": "C4Zm8M5xSLr",
+            "revision": 11,
+            "name": "Walkabout San Francisco",
+            "web_name": "lets-go-san-francisco",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2118357916774827021/covers/aa667e80-ab80-429e-9a5b-eb23915f1661-800x960.jpeg",
+            "cover_image_bg": "#886D63",
+            "bookmarks": 14,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": null
+          },
+          {
+            "id": "2120566174520443954",
+            "short_id": "C59JPH4U59y",
+            "revision": 6,
+            "name": "Utahs Incredible Canyons",
+            "web_name": "utahs-incredible-canyons",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2120566174520443954/covers/4106fde4-ec27-48ce-92d4-b5464a78e9f7-800x960.jpeg",
+            "cover_image_bg": "#79655B",
+            "bookmarks": 13,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 39.32098005898297,
+                  "lon": -109.49931336566806
+                },
+                "southwest": {
+                  "lat": 37.30500410310924,
+                  "lon": -112.94911963865161
+                }
+              },
+              "last_location": {
+                "lat": 39.320980072021484,
+                "lon": -111.09373474121094
+              }
+            }
+          },
+          {
+            "id": "2120565966046757937",
+            "short_id": "C59JEt2xzXr",
+            "revision": 4,
+            "name": "Utah National Parks",
+            "web_name": "utah-national-parks",
+            "cover_image_url": null,
+            "cover_image_bg": "#BED8D0",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.57331463135779,
+                  "lon": -109.5498429145664
+                },
+                "southwest": {
+                  "lat": 37.200366938486695,
+                  "lon": -113.02629852667451
+                }
+              },
+              "last_location": {
+                "lat": 38.387996673583984,
+                "lon": -109.86355590820312
+              }
+            }
+          },
+          {
+            "id": "2116199616956336083",
+            "short_id": "C42vAGnHnKF",
+            "revision": 3,
+            "name": "The Colorado High Life",
+            "web_name": "colorado",
+            "cover_image_url": null,
+            "cover_image_bg": "#E2EAAB",
+            "bookmarks": 14,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 38.87835308443755,
+                  "lon": -104.86975866369903
+                },
+                "southwest": {
+                  "lat": 37.732997867278755,
+                  "lon": -107.81241612508893
+                }
+              },
+              "last_location": {
+                "lat": 37.73299789428711,
+                "lon": -105.51250457763672
+              }
+            }
+          },
+          {
+            "id": "2117671026060953595",
+            "short_id": "C4PG7Tz7axP",
+            "revision": 2,
+            "name": "The Beauty of Lake Tahoe",
+            "web_name": "the-beauty-of-lake-tahoe",
+            "cover_image_url": null,
+            "cover_image_bg": "#9B9CA1",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": null
+          },
+          {
+            "id": "2118517025222427669",
+            "short_id": "C4bxxKzMckB",
+            "revision": 2,
+            "name": "Tahoe Outdoor Adventures",
+            "web_name": "tahoe-outdoor-adventures",
+            "cover_image_url": null,
+            "cover_image_bg": "#8E95B3",
+            "bookmarks": 11,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 39.23374938312918,
+                  "lon": -119.93034367449582
+                },
+                "southwest": {
+                  "lat": 39.23374938312918,
+                  "lon": -119.93034367449582
+                }
+              },
+              "last_location": {
+                "lat": 39.23374938964844,
+                "lon": -119.93034362792969
+              }
+            }
+          },
+          {
+            "id": "2121195147910710366",
+            "short_id": "C5J2AJxRZ3u",
+            "revision": 2,
+            "name": "Summer in Tahoe",
+            "web_name": "summer-in-tahoe",
+            "cover_image_url": null,
+            "cover_image_bg": "#E49681",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 39.23374938312918,
+                  "lon": -119.93034367449582
+                },
+                "southwest": {
+                  "lat": 39.23374938312918,
+                  "lon": -119.93034367449582
+                }
+              },
+              "last_location": {
+                "lat": 39.23374938964844,
+                "lon": -119.93034362792969
+              }
+            }
+          },
+          {
+            "id": "2116183093915158481",
+            "short_id": "C42fptpjKva",
+            "revision": 2,
+            "name": "Spokane WA",
+            "web_name": "spokane-wa",
+            "cover_image_url": null,
+            "cover_image_bg": "#E49681",
+            "bookmarks": 5,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 47.66068646684289,
+                  "lon": -117.42655185051262
+                },
+                "southwest": {
+                  "lat": 47.66068646684289,
+                  "lon": -117.42655185051262
+                }
+              },
+              "last_location": {
+                "lat": 47.66068649291992,
+                "lon": -117.42655181884766
+              }
+            }
+          },
+          {
+            "id": "2121339576168481890",
+            "short_id": "C5L23ENNqUE",
+            "revision": 12,
+            "name": "Experience Southern California",
+            "web_name": "southern-california-family-fun",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2121339576168481890/covers/d555aa93-46eb-4ff6-b850-f87b9b24c123-800x960.jpeg",
+            "cover_image_bg": "#608193",
+            "bookmarks": 16,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 34.959209435619414,
+                  "lon": -116.41938789747655
+                },
+                "southwest": {
+                  "lat": 32.7521514846012,
+                  "lon": -118.67616277188063
+                }
+              },
+              "last_location": {
+                "lat": 33.61883544921875,
+                "lon": -117.92867279052734
+              }
+            }
+          },
+          {
+            "id": "2118381315261727761",
+            "short_id": "C4a6b3rmmtW",
+            "revision": 10,
+            "name": "San Francisco Architecture",
+            "web_name": "san-francisco-architecture",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2118381315261727761/covers/beb21c71-e1a8-4de7-8eae-87aa85b07227-800x960.jpeg",
+            "cover_image_bg": "#758083",
+            "bookmarks": 10,
+            "share_url": null,
+            "cover_contains_title": true,
+            "default_viewport": null
+          },
+          {
+            "id": "2121323660420580448",
+            "short_id": "C5Kn9L2RETJ",
+            "revision": 6,
+            "name": "New York Getaways",
+            "web_name": "new-york-getaways",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2121323660420580448/covers/6aecf5e5-a099-4668-9a51-15c78942e18b-800x960.jpeg",
+            "cover_image_bg": "#AF9B87",
+            "bookmarks": 14,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.95704648736864,
+                  "lon": -73.87611391022801
+                },
+                "southwest": {
+                  "lat": 41.95704648736864,
+                  "lon": -73.87611391022801
+                }
+              },
+              "last_location": {
+                "lat": 41.95704650878906,
+                "lon": -73.87611389160156
+              }
+            }
+          },
+          {
+            "id": "2118292624161899532",
+            "short_id": "C4YsM4VpVff",
+            "revision": 13,
+            "name": "Exploring Portland",
+            "web_name": "portland-in-a-nutshell",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2118292624161899532/covers/5a9e0d1a-96e6-4600-a65b-8afc21eebd9a-800x960.jpeg",
+            "cover_image_bg": "#8E6B5E",
+            "bookmarks": 23,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 45.52530778571963,
+                  "lon": -122.61434013023973
+                },
+                "southwest": {
+                  "lat": 45.51219299901277,
+                  "lon": -122.68125160597265
+                }
+              },
+              "last_location": {
+                "lat": 45.5253078,
+                "lon": -122.6733273
+              }
+            }
+          },
+          {
+            "id": "2125468896382158053",
+            "short_id": "C6P86FRzj47",
+            "revision": 4,
+            "name": "Explore Washington with JessWandering",
+            "web_name": "explore-washington-with-jesswandering",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2125468896382158053/covers/aed5293c-7728-417b-828c-afc376673007-800x960.jpeg",
+            "cover_image_bg": "#564C59",
+            "bookmarks": 7,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 48.88317870441824,
+                  "lon": -121.11330421641469
+                },
+                "southwest": {
+                  "lat": 46.85230634640902,
+                  "lon": -121.8845901824534
+                }
+              },
+              "last_location": {
+                "lat": 47.990474700927734,
+                "lon": -121.16948699951172
+              }
+            }
+          },
+          {
+            "id": "2112584376511367069",
+            "short_id": "C36v4XgxjWS",
+            "revision": 8,
+            "name": "Montana Adventures",
+            "web_name": "bozeman-mt",
+            "cover_image_url": null,
+            "cover_image_bg": "#8E95B3",
+            "bookmarks": 9,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 45.26177974417806,
+                  "lon": -110.82813268527389
+                },
+                "southwest": {
+                  "lat": 44.46047210600227,
+                  "lon": -111.30802161991596
+                }
+              },
+              "last_location": {
+                "lat": 45.26177978515625,
+                "lon": -111.30802154541016
+              }
+            }
+          },
+          {
+            "id": "2120566330229785651",
+            "short_id": "C59JWZAcqUg",
+            "revision": 7,
+            "name": "Cool Lakes in Utah",
+            "web_name": "cool-lakes-in-utah",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2120566330229785651/covers/3679fccd-b71d-458d-8721-61fd69c2874e-800x960.jpeg",
+            "cover_image_bg": "#916C67",
+            "bookmarks": 8,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 41.78260039072484,
+                  "lon": -111.24330905266106
+                },
+                "southwest": {
+                  "lat": 37.06826018169522,
+                  "lon": -111.94560248404741
+                }
+              },
+              "last_location": {
+                "lat": 41.78260040283203,
+                "lon": -111.94560241699219
+              }
+            }
+          },
+          {
+            "id": "2118272011674321931",
+            "short_id": "C4YZxjFprN9",
+            "revision": 7,
+            "name": "Austin Rocks",
+            "web_name": "austin-rocks",
+            "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2118272011674321931/covers/53c74584-fa5d-4c19-9b27-1eb949d7098c-800x960.jpeg",
+            "cover_image_bg": "#847C74",
+            "bookmarks": 14,
+            "share_url": null,
+            "cover_contains_title": false,
+            "default_viewport": {
+              "viewport": {
+                "northeast": {
+                  "lat": 30.337369898334146,
+                  "lon": -97.73768618702888
+                },
+                "southwest": {
+                  "lat": 30.24716758634895,
+                  "lon": -98.14089973457158
+                }
+              },
+              "last_location": {
+                "lat": 30.280811309814453,
+                "lon": -97.73768615722656
+              }
+            }
+          }
+        ],
+        "default_viewport": {
+          "viewport": {
+            "northeast": {
+              "lat": 48.88317870441824,
+              "lon": -73.87611391022801
+            },
+            "southwest": {
+              "lat": 29.194019297137856,
+              "lon": -122.68125160597265
+            }
+          },
+          "last_location": {
+            "lat": 38.387996673583984,
+            "lon": -109.86355590820312
+          }
+        },
+        "_username": "StlrUSA",
+        "private": false
+      },
+      "name": "San Francisco Architecture",
+      "web_name": "san-francisco-architecture",
+      "description": null,
+      "header_image_url": null,
+      "header_image_bg": "#E49681",
+      "cover_image_url": "https://d2rbodpj0xodc.cloudfront.net/collections/2118381315261727761/covers/beb21c71-e1a8-4de7-8eae-87aa85b07227-800x960.jpeg",
+      "cover_image_bg": "#758083",
+      "followers": 1,
+      "explicitly_followed": false,
+      "implicitly_followed": false,
+      "stories": 0,
+      "bookmarks": 10,
+      "cover_contains_title": true,
+      "default_viewport": null,
+      "share_url": "https://steller.co/c/C4a6b3rmmtW"
+    }
+  ]
+}
