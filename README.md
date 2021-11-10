@@ -1,16 +1,23 @@
 # Carousel demo application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Used dependencies
+- **material-ui** - ui component library
+- **axios** - HTTP client
+- **typestyle** - CSS styling library
+- **react-spring** - animation library
 
-In the project directory, you can run:
+### Known issues
+Backend endpoints have incorrect CORS configuration. Server configuration change needed. 
 
 ### Starting the app
 
+`npm start` - site is served on http://localhost:3000
 
-### `npm test`
+### Running tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm test` - currently only JEST tests are implemented
 
+Backend would need to be running for E2E functionality.
+
+### Notes
+- Due to trivial functionality no state management is deployed and data are saved in local state only.
