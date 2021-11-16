@@ -11,6 +11,7 @@ const styles = () => createStyles({
         position: 'relative',
         maxWidth: 'fit-content',
         display: 'flex',
+        outline: 'none',
         flexDirection: 'row',
         alignItems: 'center',
         overflow: 'hidden'
@@ -113,12 +114,22 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
             <div
                 ref={this.divRef}
                 className={classes.rootClass}
+                tabIndex={2}
+                onKeyDown={event => {
+                    if (event.key === 'ArrowLeft' && this.props.selectedIndex) {
+                        this.handleItemChange(Math.max(this.props.selectedIndex - 1, 0));
+                    }
+                    if (event.key === 'ArrowRight' && this.props.selectedIndex < this.props.items.length - 1) {
+                        this.handleItemChange(Math.min(this.props.selectedIndex + 1, this.props.items.length - 1));
+                    }
+                }}
             >
                 {this.props.selectedIndex > 0 && (
                     <Fab
                         style={{ left: 10 }}
                         color="primary"
                         className={classes.navigationClass}
+                        tabIndex={-1}
                         size="small"
                         onClick={() => this.handleItemChange(this.props.selectedIndex - 1)}
                     >
@@ -172,6 +183,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                         style={{ right: 10 }}
                         color="primary"
                         className={classes.navigationClass}
+                        tabIndex={-1}
                         data-testid="carousel-next-button"
                         size="small"
                         onClick={() => this.handleItemChange(this.props.selectedIndex + 1)}
