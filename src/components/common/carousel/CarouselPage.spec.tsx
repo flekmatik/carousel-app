@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { CarouselPage } from './CarouselPage';
-import { mockResizeObserver } from '../../utils-tests';
+import { mockResizeObserver } from '../../../utils-tests';
 
 mockResizeObserver();
 

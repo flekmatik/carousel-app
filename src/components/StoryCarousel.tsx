@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Carousel } from './common/Carousel';
+import { Carousel } from './common/carousel/Carousel';
 import { useEffect, useState } from 'react';
 import { CircularProgress } from '@material-ui/core';
-import { ICarouselPage } from './common/CarouselPage';
+import { ICarouselPage } from './common/carousel/CarouselPage';
 import axios from 'axios';
 import storiesNearbyJson from '../assets/stories-nearby.json';
 
@@ -40,6 +40,7 @@ export const StoryCarousel = () => {
         <Carousel
             type="circle"
             pages={pages}
+            itemWidth={100}
             pageIndex={currentPageIndex}
             onChangePage={newPage => setCurrentPageIndex(newPage)}
         />

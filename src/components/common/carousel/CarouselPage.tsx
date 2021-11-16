@@ -9,6 +9,7 @@ const imgStyle = style({
 });
 
 export interface ICarouselPage {
+    title?: string;
     imageUrl: string;
     alt?: string;
 }
