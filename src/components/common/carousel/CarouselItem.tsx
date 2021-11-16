@@ -1,11 +1,13 @@
 import * as React from 'react';
-import { style } from 'typestyle';
+import { createStyles, WithStyles, withStyles } from '@material-ui/core';
 
 export const horizontalMargin = 10;
 
-const imgStyle = style({
-    padding: horizontalMargin,
-    objectFit: 'cover'
+const styles = () => createStyles({
+    imgClass: {
+        padding: horizontalMargin,
+        objectFit: 'cover'
+    }
 });
 
 export interface ICarouselItem {
@@ -14,7 +16,7 @@ export interface ICarouselItem {
     alt?: string;
 }
 
-interface ICarouselItemProps {
+interface ICarouselItemProps extends WithStyles<typeof styles> {
     item: ICarouselItem;
     width?: number;
     type?: 'rect' | 'circle';
@@ -24,14 +26,14 @@ interface ICarouselItemProps {
 /**
  * One carousel item/image
  */
-export class CarouselItem extends React.PureComponent<ICarouselItemProps> {
+class CarouselItemPure extends React.PureComponent<ICarouselItemProps> {
     render() {
         const item = this.props.item;
         return (
             <div>
                 <img
                     src={item.imageUrl}
-                    className={imgStyle}
+                    className={this.props.classes.imgClass}
                     alt={item.alt}
                     style={{
                         width: this.props.width,
@@ -44,3 +46,5 @@ export class CarouselItem extends React.PureComponent<ICarouselItemProps> {
         );
     }
 }
+
+export const CarouselItem = withStyles(styles)(CarouselItemPure);
