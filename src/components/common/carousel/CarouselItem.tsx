@@ -8,31 +8,31 @@ const imgStyle = style({
     objectFit: 'cover'
 });
 
-export interface ICarouselPage {
+export interface ICarouselItem {
     title?: string;
     imageUrl: string;
     alt?: string;
 }
 
 interface ICarouselItemProps {
-    page: ICarouselPage;
+    item: ICarouselItem;
     width?: number;
     type?: 'rect' | 'circle';
     onClick?: () => void;
 }
 
 /**
- * Carousel Page equals to one carousel item/image
+ * One carousel item/image
  */
-export class CarouselPage extends React.PureComponent<ICarouselItemProps> {
+export class CarouselItem extends React.PureComponent<ICarouselItemProps> {
     render() {
-        const page = this.props.page;
+        const item = this.props.item;
         return (
             <div>
                 <img
-                    src={page.imageUrl}
+                    src={item.imageUrl}
                     className={imgStyle}
-                    alt={page.alt}
+                    alt={item.alt}
                     style={{
                         width: this.props.width,
                         borderRadius: `${this.props.type === 'circle' ? 50 : 10}%`,

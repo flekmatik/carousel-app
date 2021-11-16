@@ -1,14 +1,14 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { CarouselPage } from './CarouselPage';
+import { CarouselItem } from './CarouselItem';
 import { mockResizeObserver } from '../../../utils-tests';
 
 mockResizeObserver();
 
 test('renders', () => {
     render((
-        <CarouselPage
-            page={{
+        <CarouselItem
+            item={{
                 imageUrl: 'nonsense'
             }}
             width={50}
@@ -19,8 +19,8 @@ test('renders', () => {
 test('calls click when clicked', () => {
     const mockCallback = jest.fn();
     render((
-        <CarouselPage
-            page={{
+        <CarouselItem
+            item={{
                 imageUrl: 'nonsense',
                 alt: 'test alt text'
             }}
