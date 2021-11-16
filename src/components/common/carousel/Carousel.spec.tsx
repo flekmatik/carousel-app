@@ -8,9 +8,9 @@ mockResizeObserver();
 it('renders', () => {
     render((
         <Carousel
-            pages={[]}
-            onChangePage={() => {}}
-            pageIndex={0}
+            items={[]}
+            onSelectItem={() => {}}
+            selectedIndex={0}
         />
     ));
 });
@@ -19,7 +19,7 @@ it('selects next page on click', () => {
     const changeMock = jest.fn();
     render((
         <Carousel
-            pages={[
+            items={[
                 {
                     title: 'some title',
                     imageUrl: 'some'
@@ -29,8 +29,8 @@ it('selects next page on click', () => {
                     imageUrl: 'next'
                 }
             ]}
-            onChangePage={changeMock}
-            pageIndex={0}
+            onSelectItem={changeMock}
+            selectedIndex={0}
         />
     ));
     const nextButton = screen.getByTestId('carousel-next-button');
@@ -43,7 +43,7 @@ it('hides next page button on last page', () => {
     const changeMock = jest.fn();
     render((
         <Carousel
-            pages={[
+            items={[
                 {
                     title: 'some title',
                     imageUrl: 'some'
@@ -53,8 +53,8 @@ it('hides next page button on last page', () => {
                     imageUrl: 'next'
                 }
             ]}
-            onChangePage={changeMock}
-            pageIndex={1}
+            onSelectItem={changeMock}
+            selectedIndex={1}
         />
     ));
     const nextButton = screen.queryByTestId('carousel-next-button');
