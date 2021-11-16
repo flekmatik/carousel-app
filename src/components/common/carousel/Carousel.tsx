@@ -122,6 +122,14 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     if (event.key === 'ArrowRight' && this.props.selectedIndex < this.props.items.length - 1) {
                         this.handleItemChange(Math.min(this.props.selectedIndex + 1, this.props.items.length - 1));
                     }
+                    if (event.key === 'ArrowUp' && this.props.selectedIndex) {
+                        this.handleItemChange(0);
+                        event.preventDefault();
+                    }
+                    if (event.key === 'ArrowDown' && this.props.selectedIndex < this.props.items.length - 1) {
+                        this.handleItemChange(this.props.items.length - 1);
+                        event.preventDefault();
+                    }
                 }}
             >
                 {this.props.selectedIndex > 0 && (
