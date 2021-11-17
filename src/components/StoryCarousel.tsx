@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Carousel } from './common/carousel/Carousel';
 import { useEffect, useState } from 'react';
 import { CircularProgress } from '@material-ui/core';
-import { ICarouselItem } from './common/carousel/CarouselItem';
+import { ICarouselItem } from '../store/interfaces';
 import axios from 'axios';
 import storiesNearbyJson from '../assets/stories-nearby.json';
 

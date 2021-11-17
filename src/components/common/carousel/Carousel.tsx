@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { CarouselItem, horizontalMargin, ICarouselItem } from './CarouselItem';
+import { CarouselItem, horizontalMargin } from './CarouselItem';
 import { createRef } from 'react';
 import { createStyles, Fab, WithStyles, withStyles } from '@material-ui/core';
 import { NavigateBefore, NavigateNext } from '@material-ui/icons';
 import { animated, Spring } from 'react-spring';
 import { CarouselIndicator } from './CarouselIndicator';
+import { ICarouselItem } from '../../../store/interfaces';
 
 const styles = () => createStyles({
     rootClass: {

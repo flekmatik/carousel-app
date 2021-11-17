@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { createStyles, WithStyles, withStyles } from '@material-ui/core';
+import { ICarouselItem } from '../../../store/interfaces';
 
 export const horizontalMargin = 10;
 
@@ -9,12 +10,6 @@ const styles = () => createStyles({
         objectFit: 'cover'
     }
 });
-
-export interface ICarouselItem {
-    title?: string;
-    imageUrl: string;
-    alt?: string;
-}
 
 interface ICarouselItemProps extends WithStyles<typeof styles> {
     item: ICarouselItem;

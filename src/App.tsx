@@ -43,7 +43,7 @@ export const App = () => {
             </Typography>
             <CollectionCarousel />
             <div style={{ height: 30 }} />
-            <StoryCarousel  />
+            <StoryCarousel />
         </div>
     );
 }
