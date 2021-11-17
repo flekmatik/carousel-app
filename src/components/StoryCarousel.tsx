@@ -5,9 +5,11 @@ import { CircularProgress } from '@material-ui/core';
 import { ICarouselItem } from '../store/interfaces';
 import axios from 'axios';
 import storiesNearbyJson from '../assets/stories-nearby.json';
+import { useAppDispatch, useAppSelector } from '../store';
 
 export const StoryCarousel = () => {
-    const [currentItemIndex, setCurrentItemIndex] = useState<number>(0);
+    const currentItemIndex = useAppSelector(state => state.view.storyCarouselIndex);
+    const dispatch = useAppDispatch();
     const [items, setItems] = useState<ICarouselItem[]>();
 
     useEffect(() => {
@@ -42,7 +44,13 @@ export const StoryCarousel = () => {
             items={items}
             itemWidth={100}
             selectedIndex={currentItemIndex}
-            onSelectItem={newPage => setCurrentItemIndex(newPage)}
+            onSelectItem={index => dispatch({
+                type: 'SELECT_CAROUSEL_ITEM',
+                payload: {
+                    carouselName: 'story',
+                    index
+                }
+            })}
         />
     )
 }

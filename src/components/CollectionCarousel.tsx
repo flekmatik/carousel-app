@@ -5,9 +5,11 @@ import { CircularProgress } from '@material-ui/core';
 import axios from 'axios';
 import collectionsNearbyJson from '../assets/collections-nearby.json';
 import { ICarouselItem } from '../store/interfaces';
+import { useAppDispatch, useAppSelector } from '../store';
 
 export const CollectionCarousel = () => {
-    const [currentItemIndex, setCurrentItemIndex] = useState<number>(0);
+    const currentItemIndex = useAppSelector(state => state.view.collectionCarouselIndex);
+    const dispatch = useAppDispatch();
     const [items, setItems] = useState<ICarouselItem[]>();
 
     useEffect(() => {
@@ -43,7 +45,13 @@ export const CollectionCarousel = () => {
             itemWidth={400}
             centered
             selectedIndex={currentItemIndex}
-            onSelectItem={newIndex => setCurrentItemIndex(newIndex)}
+            onSelectItem={index => dispatch({
+                type: 'SELECT_CAROUSEL_ITEM',
+                payload: {
+                    carouselName: 'collection',
+                    index
+                }
+            })}
         />
     )
 }
