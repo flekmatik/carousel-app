@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { CollectionCarousel } from './components/CollectionCarousel';
 import { StoryCarousel } from './components/StoryCarousel';
 import { createStyles, makeStyles, Theme, Typography } from '@material-ui/core';
+import { useAppDispatch } from './store';
+import { loadInitDataThunk } from './store/thunks';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
     "@keyframes gradientAnimation": {
@@ -32,6 +34,11 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
 export const App = () => {
     const classes = useStyles();
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        dispatch(loadInitDataThunk());
+    }, []);
 
     return (
         <div className={classes.rootClass}>
