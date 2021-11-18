@@ -13,6 +13,7 @@ const styles = () => createStyles({
 
 interface ICarouselItemProps extends WithStyles<typeof styles> {
     item: ICarouselItem;
+    'data-testid'?: string;
     width?: number;
     type?: 'rect' | 'circle';
     onClick?: () => void;
@@ -21,25 +22,21 @@ interface ICarouselItemProps extends WithStyles<typeof styles> {
 /**
  * One carousel item/image
  */
-class CarouselItemPure extends React.PureComponent<ICarouselItemProps> {
-    render() {
-        const item = this.props.item;
-        return (
-            <div>
-                <img
-                    src={item.imageUrl}
-                    className={this.props.classes.imgClass}
-                    alt={item.alt}
-                    style={{
-                        width: this.props.width,
-                        borderRadius: `${this.props.type === 'circle' ? 50 : 10}%`,
-                        height: this.props.type === 'circle' ? this.props.width : undefined
-                    }}
-                    onClick={this.props.onClick}
-                />
-            </div>
-        );
-    }
-}
+const CarouselItemPure = (props: ICarouselItemProps) => (
+    <div>
+        <img
+            src={props.item.imageUrl}
+            className={props.classes.imgClass}
+            data-testid={props['data-testid']}
+            alt={props.item.alt}
+            style={{
+                width: props.width,
+                borderRadius: `${props.type === 'circle' ? 50 : 10}%`,
+                height: props.type === 'circle' ? props.width : undefined
+            }}
+            onClick={props.onClick}
+        />
+    </div>
+);
 
 export const CarouselItem = withStyles(styles)(CarouselItemPure);

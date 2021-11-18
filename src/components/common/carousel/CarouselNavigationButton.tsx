@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, Fab, withStyles, WithStyles } from '@material-ui/core';
-import { NavigateBefore } from '@material-ui/icons';
+import { NavigateBefore, NavigateNext } from '@material-ui/icons';
 
 const styles = () => createStyles({
     rootClass: {
@@ -10,6 +10,7 @@ const styles = () => createStyles({
 });
 
 interface ICarouselNavigationButtonProps extends WithStyles<typeof styles> {
+    type: 'prev' | 'next';
     style?: React.CSSProperties;
     'data-testid'?: string;
     onClick: () => void;
@@ -20,12 +21,12 @@ const CarouselNavigationButtonPure = (props: ICarouselNavigationButtonProps) => 
         style={props.style}
         color="primary"
         className={props.classes.rootClass}
-        data-testid={props['data-testid']}
+        data-testid={`carousel-${props.type}-button`}
         tabIndex={-1}
         size="small"
         onClick={props.onClick}
     >
-        <NavigateBefore />
+        {props.type === 'next' ? <NavigateBefore /> : <NavigateNext />}
     </Fab>
 );
 

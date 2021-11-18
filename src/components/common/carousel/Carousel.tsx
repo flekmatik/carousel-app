@@ -132,7 +132,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                 {this.props.selectedIndex > 0 && (
                     <CarouselNavigationButton
                         style={{ left: 10 }}
-                        data-testid="carousel-prev-button"
+                        type="prev"
                         onClick={() => this.handleItemChange(this.props.selectedIndex - 1)}
                     />
                 )}
@@ -149,6 +149,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                                 <CarouselItem
                                     key={index}
                                     width={itemWidth}
+                                    data-testid="carousel-item"
                                     item={item}
                                     type={this.props.type}
                                     onClick={() => this.handleItemChange(index)}
@@ -180,8 +181,8 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                 </Spring>
                 {this.props.selectedIndex < this.props.items.length - 1 && (
                     <CarouselNavigationButton
+                        type="next"
                         style={{ right: 10 }}
-                        data-testid="carousel-next-button"
                         onClick={() => this.handleItemChange(this.props.selectedIndex + 1)}
                     />
                 )}
