@@ -15,7 +15,7 @@ it('renders', () => {
     ));
 });
 
-it('selects next page on click', () => {
+it('selects next item on click', () => {
     const changeMock = jest.fn();
     render((
         <Carousel
@@ -39,8 +39,7 @@ it('selects next page on click', () => {
     expect(changeMock.mock.calls[0][0]).toBe(1);
 });
 
-it('hides next page button on last page', () => {
-    const changeMock = jest.fn();
+it('hides prev page button on first page', () => {
     render((
         <Carousel
             items={[
@@ -53,10 +52,35 @@ it('hides next page button on last page', () => {
                     imageUrl: 'next'
                 }
             ]}
-            onSelectItem={changeMock}
+            onSelectItem={() => {}}
+            selectedIndex={0}
+        />
+    ));
+    const prevButton = screen.queryByTestId('carousel-prev-button');
+    const nextButton = screen.queryByTestId('carousel-next-button');
+    expect(prevButton).not.toBeInTheDocument();
+    expect(nextButton).toBeInTheDocument();
+});
+
+it('hides next page button on last page', () => {
+    render((
+        <Carousel
+            items={[
+                {
+                    title: 'some title',
+                    imageUrl: 'some'
+                },
+                {
+                    title: 'next title',
+                    imageUrl: 'next'
+                }
+            ]}
+            onSelectItem={() => {}}
             selectedIndex={1}
         />
     ));
+    const prevButton = screen.queryByTestId('carousel-prev-button');
     const nextButton = screen.queryByTestId('carousel-next-button');
+    expect(prevButton).toBeInTheDocument();
     expect(nextButton).not.toBeInTheDocument();
 });

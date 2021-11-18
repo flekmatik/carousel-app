@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { CarouselItem, horizontalMargin } from './CarouselItem';
 import { createRef } from 'react';
-import { createStyles, Fab, WithStyles, withStyles } from '@material-ui/core';
-import { NavigateBefore, NavigateNext } from '@material-ui/icons';
+import { createStyles, WithStyles, withStyles } from '@material-ui/core';
 import { animated, Spring } from 'react-spring';
 import { CarouselIndicator } from './CarouselIndicator';
 import { ICarouselItem } from '../../../store/interfaces';
+import { CarouselNavigationButton } from './CarouselNavigationButton';
 
 const styles = () => createStyles({
     rootClass: {
@@ -16,10 +16,6 @@ const styles = () => createStyles({
         flexDirection: 'row',
         alignItems: 'center',
         overflow: 'hidden'
-    },
-    navigationClass: {
-        position: 'absolute',
-        zIndex: 1000
     },
     overflowClass: {
         display: 'flex',
@@ -134,16 +130,11 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                 }}
             >
                 {this.props.selectedIndex > 0 && (
-                    <Fab
+                    <CarouselNavigationButton
                         style={{ left: 10 }}
-                        color="primary"
-                        className={classes.navigationClass}
-                        tabIndex={-1}
-                        size="small"
+                        data-testid="carousel-prev-button"
                         onClick={() => this.handleItemChange(this.props.selectedIndex - 1)}
-                    >
-                        <NavigateBefore />
-                    </Fab>
+                    />
                 )}
                 <Spring from={{}} to={{ scroll: this.state.scroll }}>
                     {({ scroll }) => (
@@ -188,17 +179,11 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     )}
                 </Spring>
                 {this.props.selectedIndex < this.props.items.length - 1 && (
-                    <Fab
+                    <CarouselNavigationButton
                         style={{ right: 10 }}
-                        color="primary"
-                        className={classes.navigationClass}
-                        tabIndex={-1}
                         data-testid="carousel-next-button"
-                        size="small"
                         onClick={() => this.handleItemChange(this.props.selectedIndex + 1)}
-                    >
-                        <NavigateNext />
-                    </Fab>
+                    />
                 )}
             </div>
         );
