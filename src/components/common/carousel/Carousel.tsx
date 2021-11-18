@@ -130,21 +130,28 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                 }}
             >
                 {this.props.selectedIndex > 0 && (
-                    <CarouselNavigationButton
-                        style={{ left: 10 }}
-                        type="prev"
-                        onClick={() => this.handleItemChange(this.props.selectedIndex - 1)}
-                    />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            left: 10
+                        }}
+                    >
+                        <CarouselNavigationButton
+                            type="prev"
+                            onClick={() => this.handleItemChange(this.props.selectedIndex - 1)}
+                        />
+                    </div>
                 )}
                 <Spring from={{}} to={{ scroll: this.state.scroll }}>
                     {({ scroll }) => (
                         <animated.div
                             className={classes.overflowClass}
                             style={{
-                                padding: `0 ${itemWidth + 2 * horizontalMargin}px`
+                                // padding: `0 ${itemWidth + 2 * horizontalMargin}px`
                             }}
                             scrollLeft={scroll}
                         >
+                            <div style={{ minWidth: itemWidth + 2 * horizontalMargin, minHeight: 1 }} />
                             {this.props.items.map((item, index) => (
                                 <CarouselItem
                                     key={index}
@@ -155,6 +162,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                                     onClick={() => this.handleItemChange(index)}
                                 />
                             ))}
+                            <div style={{ minWidth: itemWidth + 2 * horizontalMargin, minHeight: 1 }} />
                         </animated.div>
                     )}
                 </Spring>
@@ -180,11 +188,17 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     )}
                 </Spring>
                 {this.props.selectedIndex < this.props.items.length - 1 && (
-                    <CarouselNavigationButton
-                        type="next"
-                        style={{ right: 10 }}
-                        onClick={() => this.handleItemChange(this.props.selectedIndex + 1)}
-                    />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            right: 10
+                        }}
+                    >
+                        <CarouselNavigationButton
+                            type="next"
+                            onClick={() => this.handleItemChange(this.props.selectedIndex + 1)}
+                        />
+                    </div>
                 )}
             </div>
         );
