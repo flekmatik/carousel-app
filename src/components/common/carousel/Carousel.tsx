@@ -80,6 +80,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
     getItemWidth = () => Math.min(this.props.itemWidth || 200, this.state.width! - 2 * horizontalMargin || Infinity);
 
     handleItemChange = (itemIndex: number, skipOnUpdate?: boolean) => {
+        !skipOnUpdate && this.divRef.current?.focus();
         const itemWidth = this.getItemWidth() + 2 * horizontalMargin;
         const left = (itemIndex + 1) * itemWidth;
         if (this.props.centered) {

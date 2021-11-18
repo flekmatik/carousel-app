@@ -4,7 +4,6 @@ import { NavigateBefore, NavigateNext } from '@material-ui/icons';
 
 interface ICarouselNavigationButtonProps {
     type: 'prev' | 'next';
-    'data-testid'?: string;
     onClick: () => void;
 }
 
