@@ -11,7 +11,7 @@ export const store = createStore(combineReducers({
 }), applyMiddleware(thunk));
 
 export type IState = ReturnType<typeof store.getState>;
-export type IDispatch = typeof store.dispatch;
+export type IDispatch = ThunkDispatch<IState, void, IAction>;
 export type IThunk = () => ThunkAction<void, IState, void, IAction>;
-export const useAppDispatch: () => ThunkDispatch<IState, void, IAction> = useDispatch;
+export const useAppDispatch: () => IDispatch = useDispatch;
 export const useAppSelector: TypedUseSelectorHook<IState> = useSelector;

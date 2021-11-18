@@ -1,12 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { CollectionCarousel } from './components/CollectionCarousel';
 import { StoryCarousel } from './components/StoryCarousel';
-import { createStyles, makeStyles, Theme, Typography } from '@material-ui/core';
-import { useAppDispatch } from './store';
+import { createStyles, Theme, Typography, withStyles, WithStyles } from '@material-ui/core';
 import { loadInitDataThunk } from './store/thunks';
+import { connect } from 'react-redux';
+import { IDispatch } from './store';
 
-const useStyles = makeStyles((theme: Theme) => createStyles({
+const styles = (theme: Theme) => createStyles({
     "@keyframes gradientAnimation": {
         '0%': {
             backgroundPosition: `0% 50%`
@@ -30,27 +31,36 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         marginBottom: 20,
         textAlign: 'center'
     }
-}));
+});
 
-export const App = () => {
-    const classes = useStyles();
-    const dispatch = useAppDispatch();
-
-    useEffect(() => {
-        dispatch(loadInitDataThunk());
-    }, []);
-
-    return (
-        <div className={classes.rootClass}>
-            <Typography
-                variant="h2"
-                className={classes.titleClass}
-            >
-                Carousel Demo
-            </Typography>
-            <CollectionCarousel />
-            <div style={{ height: 30 }} />
-            <StoryCarousel />
-        </div>
-    );
+interface IAppProps extends WithStyles<typeof styles> {
+    onLoad: () => void;
 }
+
+class AppPure extends React.Component<IAppProps> {
+    componentDidMount() {
+        this.props.onLoad();
+    }
+
+    render() {
+        return (
+            <div className={this.props.classes.rootClass}>
+                <Typography
+                    variant="h2"
+                    className={this.props.classes.titleClass}
+                >
+                    Carousel Demo
+                </Typography>
+                <CollectionCarousel />
+                <div style={{ height: 30 }} />
+                <StoryCarousel />
+            </div>
+        );
+    }
+}
+
+const mapDispatch = (dispatch: IDispatch) => ({
+    onLoad: () => dispatch(loadInitDataThunk())
+});
+
+export const App = connect(undefined, mapDispatch)(withStyles(styles)(AppPure));

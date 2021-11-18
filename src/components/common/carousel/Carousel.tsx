@@ -146,9 +146,6 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     {({ scroll }) => (
                         <animated.div
                             className={classes.overflowClass}
-                            style={{
-                                // padding: `0 ${itemWidth + 2 * horizontalMargin}px`
-                            }}
                             scrollLeft={scroll}
                         >
                             <div style={{ minWidth: itemWidth + 2 * horizontalMargin, minHeight: 1 }} />
