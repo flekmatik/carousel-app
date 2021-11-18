@@ -29,15 +29,15 @@ const styles = () => createStyles({
 interface ICarouselProps extends WithStyles<typeof styles> {
     items: ICarouselItem[];
     type?: 'rect' | 'circle';
-    itemWidth?: number;
+    itemWidth?: number; // width of one item, height is computed from aspect-ratio
     selectedIndex: number;
-    centered?: boolean;
+    centered?: boolean; // keeps selected element in the center of the component
     onSelectItem: (itemIndex: number) => void;
 }
 
 interface ICarouselState {
-    width?: number;
-    scroll: number;
+    width?: number; // width of root element
+    scroll: number; // offset position of div with all elements, eg. scroll position
 }
 
 /**
@@ -55,7 +55,10 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
 
     componentDidMount() {
         this.resizeObserver.observe(this.divRef.current!);
-        this.handleItemChange(this.props.selectedIndex, true);
+        // make sure selected element is in visible region of this component on component load
+        this.setState({
+            scroll: this.getPaddingWidth()
+        }, () => this.handleItemChange(this.props.selectedIndex, true));
     }
 
     componentWillUnmount() {
@@ -64,6 +67,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
 
     componentDidUpdate(prevProps: Readonly<ICarouselProps>) {
         if (prevProps.selectedIndex !== this.props.selectedIndex) {
+            // make sure selected element is in visible region of this component
             this.handleItemChange(this.props.selectedIndex, true);
         }
     }
@@ -73,28 +77,35 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
         if (newWidth !== this.state.width) {
             this.setState({
                 width: newWidth
-            }, () => this.handleItemChange(this.props.selectedIndex, true));
+            }, () => this.handleItemChange(this.props.selectedIndex, true)); // make sure selected element is in visible region of this component after resize
         }
     }
 
+    // calculate item width (in case it was not provided in props)
     getItemWidth = () => Math.min(this.props.itemWidth || 200, this.state.width! - 2 * horizontalMargin || Infinity);
+    // calculate padding on left/right side so we can scroll enough to show selected item in center
+    getPaddingWidth = () => (this.divRef.current?.offsetWidth || 0) / 2;
 
     handleItemChange = (itemIndex: number, skipOnUpdate?: boolean) => {
-        // Keep focus on component in case focused navigation button is hidden (because first/last item is selected)
+        // keep focus on the component in case focused navigation button is hidden (eg. first/last item is selected)
         !skipOnUpdate && this.divRef.current?.focus();
         const itemWidth = this.getItemWidth() + 2 * horizontalMargin;
-        const left = (itemIndex + 1) * itemWidth;
+        const paddingWidth = this.getPaddingWidth();
+        // calculate position of selected element on div with all elements
+        const left = (itemIndex) * itemWidth + paddingWidth;
         if (this.props.centered) {
             this.setState({
-                scroll: left + itemWidth / 2 - this.divRef.current!.offsetWidth / 2
+                scroll: left + itemWidth / 2 - paddingWidth
             });
         } else {
+            // make sure left edge of selected element is visible
             if (this.state.scroll! > left) {
                 this.setState({
                     scroll: left
                 });
             }
             const right = left + itemWidth;
+            // make sure right edge of selected element is visible
             if (this.state.scroll! + this.divRef.current!.offsetWidth < right) {
                 this.setState({
                     scroll: right - this.divRef.current!.offsetWidth
@@ -109,6 +120,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
     render() {
         const classes = this.props.classes;
         const itemWidth = this.getItemWidth();
+        const paddingWidth = this.getPaddingWidth();
         return (
             <div
                 ref={this.divRef}
@@ -123,10 +135,12 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     }
                     if (event.key === 'ArrowUp' && this.props.selectedIndex) {
                         this.handleItemChange(0);
+                        // prevent scrolling whole page in case we moved selection
                         event.preventDefault();
                     }
                     if (event.key === 'ArrowDown' && this.props.selectedIndex < this.props.items.length - 1) {
                         this.handleItemChange(this.props.items.length - 1);
+                        // prevent scrolling whole page in case we moved selection
                         event.preventDefault();
                     }
                 }}
@@ -150,7 +164,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                             className={classes.overflowClass}
                             scrollLeft={scroll}
                         >
-                            <div style={{ minWidth: itemWidth + 2 * horizontalMargin, minHeight: 1 }} />
+                            <div style={{ minWidth: paddingWidth, minHeight: 1 }} />
                             {this.props.items.map((item, index) => (
                                 <CarouselItem
                                     key={index}
@@ -161,14 +175,14 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                                     onClick={() => this.handleItemChange(index)}
                                 />
                             ))}
-                            <div style={{ minWidth: itemWidth + 2 * horizontalMargin, minHeight: 1 }} />
+                            <div style={{ minWidth: paddingWidth, minHeight: 1 }} />
                         </animated.div>
                     )}
                 </Spring>
                 <Spring
                     from={{}}
                     to={{
-                        position: (this.props.selectedIndex + 1) * (itemWidth + 2 * horizontalMargin) // move behind items before selection
+                        position: paddingWidth + this.props.selectedIndex * (itemWidth + 2 * horizontalMargin) // move behind items before selection
                             + itemWidth * 0.1 + horizontalMargin // move relative to selected item (
                             - (this.state.scroll || 0) // offset current scroll value
                     }}
