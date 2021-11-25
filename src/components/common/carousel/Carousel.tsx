@@ -29,6 +29,7 @@ const styles = () => createStyles({
 interface ICarouselProps extends WithStyles<typeof styles> {
     items: ICarouselItem[];
     selectedIndex: number;
+    ['aria-label']?: string;
     onSelectItem: (itemIndex: number) => void;
     type?: 'rect' | 'circle';
     itemWidth?: number; // width of one item, height is computed from aspect-ratio
@@ -126,7 +127,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
             <div
                 ref={this.divRef}
                 className={classes.rootClass}
-                aria-label={(this.props as any)['aria-label'] as any}
+                aria-label={`${this.props['aria-label']}, navigate by side arrows`}
                 role="listbox"
                 tabIndex={0}
                 onKeyDown={event => {
