@@ -47,6 +47,7 @@ class AppPure extends React.Component<IAppProps> {
             <div className={this.props.classes.rootClass}>
                 <Typography
                     variant="h2"
+                    component="h1"
                     className={this.props.classes.titleClass}
                 >
                     Carousel Demo

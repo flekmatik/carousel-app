@@ -28,11 +28,11 @@ const styles = () => createStyles({
 
 interface ICarouselProps extends WithStyles<typeof styles> {
     items: ICarouselItem[];
+    selectedIndex: number;
+    onSelectItem: (itemIndex: number) => void;
     type?: 'rect' | 'circle';
     itemWidth?: number; // width of one item, height is computed from aspect-ratio
-    selectedIndex: number;
     centered?: boolean; // keeps selected element in the center of the component
-    onSelectItem: (itemIndex: number) => void;
 }
 
 interface ICarouselState {
@@ -92,7 +92,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
         const itemWidth = this.getItemWidth() + 2 * horizontalMargin;
         const paddingWidth = this.getPaddingWidth();
         // calculate position of selected element on div with all elements
-        const left = (itemIndex) * itemWidth + paddingWidth;
+        const left = itemIndex * itemWidth + paddingWidth;
         if (this.props.centered) {
             this.setState({
                 scroll: left + itemWidth / 2 - paddingWidth
@@ -120,12 +120,15 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
     render() {
         const classes = this.props.classes;
         const itemWidth = this.getItemWidth();
+        const selectedItem = this.props.items?.[this.props.selectedIndex];
         const paddingWidth = this.getPaddingWidth();
         return (
             <div
                 ref={this.divRef}
                 className={classes.rootClass}
-                tabIndex={2}
+                aria-label={(this.props as any)['aria-label'] as any}
+                role="listbox"
+                tabIndex={0}
                 onKeyDown={event => {
                     if (event.key === 'ArrowLeft' && this.props.selectedIndex) {
                         this.handleItemChange(Math.max(this.props.selectedIndex - 1, 0));
@@ -162,6 +165,7 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                     {({ scroll }) => (
                         <animated.div
                             className={classes.overflowClass}
+                            aria-hidden
                             scrollLeft={scroll}
                         >
                             <div style={{ minWidth: paddingWidth, minHeight: 1 }} />
@@ -213,6 +217,13 @@ class CarouselPure extends React.PureComponent<ICarouselProps, ICarouselState> {
                         />
                     </div>
                 )}
+                <div
+                    aria-live="assertive"
+                    aria-hidden={false}
+                    hidden
+                >
+                    {selectedItem?.alt}
+                </div>
             </div>
         );
     }

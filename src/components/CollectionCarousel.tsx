@@ -17,6 +17,7 @@ export const CollectionCarousel = () => {
             items={items}
             itemWidth={400}
             centered
+            aria-label="Carousel of collections"
             selectedIndex={currentItemIndex}
             onSelectItem={index => dispatch({
                 type: 'SELECT_CAROUSEL_ITEM',

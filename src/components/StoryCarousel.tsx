@@ -16,6 +16,7 @@ export const StoryCarousel = () => {
             type="circle"
             items={items}
             itemWidth={100}
+            aria-label="Carousel of stories"
             selectedIndex={currentItemIndex}
             onSelectItem={index => dispatch({
                 type: 'SELECT_CAROUSEL_ITEM',
