@@ -12,15 +12,15 @@ const collectionCarouselItemFromApi = (entry: ICollectionEntryApi): ICarouselIte
 });
 
 export const fetchCollectionCarouselData = async () => {
-    try {
-        const result = await axios.get<typeof collectionsNearbyJson>('/collections-nearby');
-        // TODO: there is a CORS issue and this request doesn't work from localhost,
-        //  server configuration change is necessary
-        return result.data.data.map(collectionCarouselItemFromApi);
-    } catch (e) {
-        console.log('Collections load failed, using cached data', e);
+    // try {
+    //     const result = await axios.get<typeof collectionsNearbyJson>('/collections-nearby');
+    //     // TODO: there is a CORS issue and this request doesn't work from localhost,
+    //     //  server configuration change is necessary
+    //     return result.data.data.map(collectionCarouselItemFromApi);
+    // } catch (e) {
+    //     console.log('Collections load failed, using cached data', e);
         return collectionsNearbyJson.data.map(collectionCarouselItemFromApi);
-    }
+    // }
 }
 
 type IStoryEntryApi = typeof storiesNearbyJson.data[0];
@@ -30,13 +30,13 @@ const storyCarouselItemFromApi = (entry: IStoryEntryApi): ICarouselItem => ({
 });
 
 export const fetchStoriesCarouselData = async () => {
-    try {
-        const result = await axios.get<typeof storiesNearbyJson>('/stories-nearby');
-        // TODO: there is a CORS issue and this request doesn't work from localhost,
-        //  server configuration change is necessary
-        return result.data.data.map(storyCarouselItemFromApi);
-    } catch (e) {
-        console.log('Stories load failed, using cached data', e);
+    // try {
+    //     const result = await axios.get<typeof storiesNearbyJson>('/stories-nearby');
+    //     // TODO: there is a CORS issue and this request doesn't work from localhost,
+    //     //  server configuration change is necessary
+    //     return result.data.data.map(storyCarouselItemFromApi);
+    // } catch (e) {
+    //     console.log('Stories load failed, using cached data', e);
         return storiesNearbyJson.data.map(storyCarouselItemFromApi);
-    }
+    // }
 }

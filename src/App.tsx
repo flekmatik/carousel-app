@@ -25,7 +25,7 @@ const styles = (theme: Theme) => createStyles({
         background: `linear-gradient(45deg, ${theme.palette.background.paper}, ${theme.palette.background.default})`,
         backgroundSize: '400% 400%',
         overflow: 'scroll',
-        animation: `$gradientAnimation 10s ease infinite`
+        animation: `$gradientAnimation 40s ease infinite`
     },
     titleClass: {
         marginBottom: 20,
